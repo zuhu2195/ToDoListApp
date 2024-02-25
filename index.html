@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>ToDo List App</title>
+        <link rel="stylesheet" href="task.css">
+    </head>
+    <body>
+        <div id="container-div">
+            <div id="todo-div">
+                <div id="task-input-div">
+                <input id="todo-input" type="text" name="todo" placeholder="Type Your To Do List"
+                autocomplete="off">
+                <button id="input-btn">+</button>
+                </div>
+                <button id="completed-tasks">complete all tasks</button>
+                <button id="clear-completed">clear completed</button>
+                <br>
+                <hr>
+                <div id="task-list-div">
+                    <h3>To Do Tasks</h3>
+                    <ul type="none" id="task-list">
+
+                    </ul>
+                </div>
+                <div id="completed-task">
+                    <h3>Completed Tasks</h3>
+                    <ul type="none" id="completed-task-list">
+
+                    </ul>
+                </div>
+                <div id="number-of-task">
+                    <span id="task-left"></span>
+                    <button id="complete-task-btn">Completed</button>
+                    <button id="uncomplete-task-btn">Uncomplete</button>
+                    <button id="all-task-btn">All</button>
+                </div>
+            </div>
+        </div>
+        <script src="task.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    /* display: flex;
+    /* align-items: center; 
+    justify-content: space-around;*/
+    height: 100vh;
+    width: 100vw;
+}
+
+#container-div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+}
+
+#todo-div{
+border: 1px solid black;
+height: fit-content;
+width: 100%;
+}
+
+#task-input-div{
+    width: 100%;
+}
+
+#todo-input{
+    font-size: 1.3rem;
+    height: 50px;
+    width: 92%;
+}
+
+#completed-tasks{
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#clear-completed{
+    float:right;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#input-btn{
+    border-radius: 50%;
+    border: 1px solid black;
+    /* float: right; */
+    margin-left: 3%;
+    display: none;
+}
+
+#complete-task-btn,#uncomplete-task-btn,#all-task-btn{
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+#task-list,#completed-task-list{
+    padding: 0;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
